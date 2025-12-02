@@ -1,0 +1,26 @@
+[project]
+name = "ai-agent-playground"
+version = "0.1.0"
+description = "다양한 AI Agent 프레임워크를 테스트하기 위한 공간"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "python-dotenv>=1.0.0",
+    "jupyter>=1.0.0",
+    "ipykernel>=6.0.0",
+    # LangChain
+    "langchain>=0.3.0",
+    "langchain-openai>=0.2.0",
+    "langchain-community>=0.3.0",
+    # LangGraph
+    "langgraph>=0.2.0",
+    # CrewAI
+    "crewai>=0.80.0",
+    # Ollama
+    "ollama>=0.3.0",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "ipywidgets>=8.0.0",
+]
