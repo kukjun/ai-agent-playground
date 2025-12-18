@@ -19,6 +19,9 @@ dependencies = [
     # Ollama
     "ollama>=0.3.0",
     "langchain-ollama>=0.2.0",
+    # Socket.IO (스트리밍 서버용)
+    "python-socketio>=5.0.0",
+    "aiohttp>=3.0.0",
 ]
 
 [tool.uv]
