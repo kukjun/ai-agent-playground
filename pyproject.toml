@@ -22,6 +22,7 @@ dependencies = [
     # Socket.IO (스트리밍 서버용)
     "python-socketio>=5.0.0",
     "aiohttp>=3.0.0",
+    "pandas>=2.3.3",
 ]
 
 [tool.uv]
