@@ -30,3 +30,7 @@ Thumbs.db
 
 # csv
 *.csv
+
+# Google ADK (Agent Development Kit)
+.adk/
+*.db
