@@ -25,6 +25,8 @@ dependencies = [
     "pandas>=2.3.3",
     "langchain-tavily>=0.2.16",
     "langchain-experimental>=0.4.1",
+    "google-adk>=1.22.1",
+    "litellm>=1.80.16",
 ]
 
 [tool.uv]
